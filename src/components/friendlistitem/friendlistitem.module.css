@@ -1,0 +1,32 @@
+.item {
+  border: 1px solid black;
+  padding: 9px;
+  border-radius: 7px;
+  width: 75px;
+  height: 130px;
+}
+
+.name {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.avatar {
+  width: 70px;
+}
+
+.online {
+  padding: 0;
+  margin: 0;
+  color: rgb(14, 173, 14);
+  font-weight: 600;
+}
+
+.offline {
+  padding: 0;
+  margin: 0;
+  color: red;
+  font-weight: 600;
+}

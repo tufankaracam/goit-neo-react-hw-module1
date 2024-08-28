@@ -1,0 +1,64 @@
+.container {
+  border: 1.5px solid black;
+  border-radius: 7px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.profile {
+  padding: 9px;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 101px;
+  height: 101px;
+  border-radius: 50%;
+  background-color: darkslategray;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1px;
+}
+
+.tag,
+.location {
+  color: gray;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  border-top: 1.5px solid grey;
+  flex: 1;
+  background-color: rgb(207, 207, 207);
+  padding: 9px;
+}
+
+.stat:not(:last-child) {
+  border-right: 1.5px solid grey;
+}
+
+.statname {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.statvalue {
+  font-weight: 700;
+  font-size: 15px;
+}
